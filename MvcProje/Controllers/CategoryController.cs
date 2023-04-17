@@ -23,7 +23,7 @@ namespace MvcProje.Controllers
         [HttpGet]
         public ActionResult AddCategory()
         {
-            return View();
+            return View(); 
         }
 
         [HttpPost]
