@@ -2102,7 +2102,7 @@
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="ErikEJ.EntityFrameworkCore.DgmlBuilder" Version="6.0.0" />
     <PackageReference Include="FluentValidation" Version="11.5.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.6" />
   </ItemGroup>
 
   <ItemGroup>
