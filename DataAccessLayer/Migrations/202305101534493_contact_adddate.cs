@@ -3,16 +3,16 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class mig_contentstatusadd : DbMigration
+    public partial class contact_adddate : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.Contents", "ContentStatus", c => c.Boolean(nullable: false));
+            AddColumn("dbo.Contacts", "ContactDate", c => c.DateTime(nullable: false));
         }
         
         public override void Down()
         {
-            DropColumn("dbo.Contents", "ContentStatus");
+            DropColumn("dbo.Contacts", "ContactDate");
         }
     }
 }
